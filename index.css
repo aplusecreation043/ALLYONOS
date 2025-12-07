@@ -1,0 +1,882 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+a,
+body,html {
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+.headerNav,
+.wrap {
+  width: 100%;
+  min-height: 100%;
+  max-width: 7.5rem;
+}
+
+body,
+header {
+  position: relative;
+}
+
+.headerNav,
+.headerNav .mask {
+  top: 0.9rem;
+  position: absolute;
+}
+
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+td,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+* {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  min-height: 100%;
+  line-height: 2.2;
+  font-size: 0.24rem;
+  margin: 0;
+  font-family: 'Microsoft Yahei', Arial, Tahoma, Helvetica, SimSun, 'Hiragino Sans GB', sans-serif;
+  background-color: #e0e0e0;
+}
+
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_grow {
+  -moz-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.wrap {
+  min-width: 3.2rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: rgb(42, 2, 94);
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.VungoPro_in li a,
+.icon_i,
+header .logo2 i,
+header i,
+nav li a {
+  display: block;
+}
+
+header {
+  height: 0.54rem;
+  background: #fff;
+  font-size: 0.32rem;
+  font-weight: 700;
+  padding: 0.17rem 0;
+}
+
+.headerNav {
+  left: 50%;
+  margin-left: -3.75rem;
+  z-index: 98;
+}
+
+.headerNav ul {
+  flex-wrap: wrap;
+  padding: 0.05rem 0 0.25rem;
+  z-index: 99;
+  position: absolute;
+  background: #001b1f;
+  border-radius: 0 0 0.2rem 0.5rem;
+}
+
+header.green_bg {
+  background: #001b1f;
+  color: #fff;
+  font-size: 0.32rem;
+}
+
+.headerNav ul li a {
+  color: #ffd467;
+  font-size: 0.32rem;
+  background: url('Group1556235224.png') no-repeat top center;
+  /* background-size: 100% 100%; */
+  background-size: contain;
+}
+
+.headerNav ul li {
+  margin: 0.2rem 0 0 0.2rem;
+}
+
+.headerNav ul li a {
+  display: block;
+  width: 2.22rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  border-radius: 0.1rem;
+  text-align: center;
+}
+
+.headerNav ul li a i {
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  position: relative;
+  margin-right: 0.1rem;
+}
+
+.headerNav .mask {
+  width: 7.5rem;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  margin-right: 0.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  /* line-height: 0.5rem; */
+  background: url('Group\ 1556235218.png') no-repeat top center;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu a {
+  padding: 0 0.5rem 0 0.5rem;
+  display: block;
+  width: 100%;
+  /* line-height: 100%; */
+  color: #412000 !important;
+}
+
+.menu:active {
+  opacity: 0.7;
+}
+
+header.green_bg {
+  position: relative;
+}
+
+header.green_bg a {
+  color: #fff;
+}
+
+header .logo2 {
+  width: 1.78rem;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .txt {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-top: auto;
+  margin-left: 0.2rem;
+}
+
+header .share-link {
+  display: inline;
+  cursor: pointer;
+  margin-top: -0.035rem;
+  margin-right: 0.2rem;
+  width: 1.5rem;
+  height: 0.6rem;
+  background-image: url('https://indorummy.com/Z_img/share-btn_allrummyapp.webp');
+  background-size: 100% 100%;
+}
+
+.btn {
+  /* background-color: #e80000; */
+  background: url('Group1556235224.png') no-repeat top center;
+  /* background-size: 100% 100%; */
+  background-size: contain;
+}
+
+.btn:hover {
+  /* background-color: red; */
+  opacity: 0.9;
+  -webkit-transform: scale(0.96);
+}
+
+.LootEarning_Com,
+.VungoPro_in,
+.ranking_list .sort,
+.ranking_list .sort div {
+  /* background-color: #fff; */
+}
+
+.icon_i {
+  background-image: url('index_icon.png');
+  background-size: 6rem 6rem;
+}
+
+.udfoot {
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 0.5rem;
+  /* border-bottom: 1px solid #eaeaea; */
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+nav li {
+  /* display: inline-block; */
+  /* width: 20%; */
+  border-bottom: 0.04rem solid transparent;
+  padding: 0.2rem 0 0.28rem;
+}
+
+nav li a {
+  height: 0.1rem;
+  line-height: 0.1rem;
+  /* border-right: 1px solid #e7e7e7; */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.27rem;
+}
+
+nav li.current {
+  position: relative;
+}
+
+nav li.current::after {
+  /* border-color: red; */
+  /* background-color: #dbdbdb; */
+  content: ' ';
+  position: absolute;
+  left: 20%;
+  bottom: -0.25rem;
+  /* z-index: 20000; */
+  width: 0.4rem;
+  height: 0.4rem;
+  color: green;
+  background: url('image15.png') no-repeat center;
+  background-size: 100% 100%;
+}
+
+nav li.current a {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  /* border-right: 1px solid #e7e7e7; */
+  text-align: center;
+  font-size: 0.27rem;
+  background-image: linear-gradient(to top, #b26000, #e0f303);
+  -webkit-background-clip: text;
+  color: transparent;
+  /* color: red; */
+}
+
+nav li:last-child a {
+  border: 0;
+}
+
+nav ul {
+  /* overflow-x: auto; */
+  white-space: nowrap;
+  font-size: 0;
+  font-weight: 700;
+  overflow-x: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+nav ul::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.nav_bar {
+  background: url('Group63.png') no-repeat bottom center;
+  background-size: 100% 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.ranking_list {
+  width: 100%;
+  margin: auto;
+}
+
+.ranking_list .sort {
+  /* position: relative;
+  width: 100%;
+  height: 2.25rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center; */
+}
+
+.ranking_list .sort img {
+  width: 95%;
+  /* height: 3rem; */
+  display: block;
+  margin: 0 auto;
+}
+
+.ranking_list .sort label {
+  position: absolute;
+  width: 100%;
+  margin-top: -0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ranking_list .sort span {
+  display: block;
+  width: 0.24rem;
+  height: 0.05rem;
+  background-color: #fff;
+  margin: 0 0.22rem;
+}
+
+.ranking_list .sort h3 {
+  font-size: 0.48rem;
+  color: #fff;
+  margin: 0 0.23rem;
+  letter-spacing: 0.02rem;
+}
+
+.ranking_list .sort .ico_l,
+.ranking_list .sort .ico_r {
+  width: 0.15rem;
+  height: 0.14rem;
+  background-position: -0.85rem -1.8rem;
+  position: relative;
+}
+
+.ranking_list .sort div {
+  position: absolute;
+  z-index: 1;
+  bottom: -0.04rem;
+  width: 2.72rem;
+  height: 0.4rem;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+
+.VungoPro_in {
+  padding: 1rem 0 0 0;
+}
+
+.VungoPro_in ul {
+  justify-content: space-evenly;
+}
+
+.VungoPro_in li {
+  background: url('Group75.png') no-repeat top center;
+  background-size: 100% 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.VungoPro_in li img {
+  display: block;
+  width: 1.24rem;
+  height: 1.24rem;
+  border-radius: 0.24rem;
+  margin: 0 auto;
+}
+
+.VungoPro_in li p {
+  color: #ababab;
+  font-size: 0.22rem;
+  line-height: 0.42rem;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.VungoPro_in li .name {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #fff;
+  font-size: 0.2rem;
+  font-weight: 700;
+}
+
+.VungoPro_in ul li .grade {
+  color: #e6e6e6;
+  line-height: 0.25rem;
+}
+
+.VungoPro_in ul li .grade span {
+  color: #fff;
+  font-size: 0.19rem;
+  line-height: 0.35rem;
+}
+
+.VungoPro_in ul li .grade i {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.26rem;
+  background-position: 0 -1.72rem;
+  position: relative;
+  top: 0.04rem;
+  margin-right: 0.001rem;
+}
+
+.VungoPro_in li .btn {
+  display: block;
+  width: 1.9rem;
+  height: 0.55rem;
+  text-align: center;
+  line-height: 0.55rem;
+  margin: 0.16rem auto 0;
+  border-radius: 0.06rem;
+  color: #ffd467;
+  font-size: 0.24rem;
+  font-weight: 700;
+}
+
+.VungoPro_in li:nth-child(2) img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.VungoPro_in li:nth-child(2) {
+  padding-top: 0.4rem;
+  width: 25%;
+  margin-top: -0.3rem;
+}
+
+.VungoPro_in li:first-child,
+.VungoPro_in li:nth-child(3) {
+  padding-top: 0.45rem;
+  width: 25%;
+}
+
+.VungoPro_in li .num1 {
+  background: url('image19.png') no-repeat top center;
+  background-size: 100% 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  /* background-position: -3.54rem -0.9rem; */
+  position: absolute;
+  z-index: 2;
+  top: -0.3rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+
+.VungoPro_in li .num2 {
+  background: url('image20.png') no-repeat top center;
+  background-size: 100% 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  z-index: 2;
+  top: -0.3rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+
+.VungoPro_in li .num3 {
+  background: url('image21.png') no-repeat top center;
+  background-size: 100% 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  z-index: 2;
+  top: -0.3rem;
+  left: 50%;
+  margin-left: -0.25rem;
+}
+.LootEaning_Notice_Slider {
+  display: flex;
+  justify-content: center;
+}
+.LootEaning_Notice_Slider::before {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  background: rgba(255, 255, 255, 0.245) url('lb.png') no-repeat center;
+  background-size: 50% 50%;
+  border-radius: 4px 0 0 4px;
+}
+
+.LootEaning_Notice_Slider marquee {
+  border-radius: 0 4px 4px 0;
+  width: 89%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.245);
+  color: #fff;
+  font-family: Sofia, sans-serif;
+  font-weight: 600;
+  font-variant: small-caps;
+  line-height: 0.5rem;
+  /* border: 1px dashed #d60000; */
+}
+
+.LootEarning_Com {
+  padding: 0.11rem 0 0 0;
+}
+
+.LootEarning_Com .tab_menu {
+  height: 0.68rem;
+  line-height: 0.68rem;
+  text-align: center;
+  color: #fff;
+  opacity: 60%;
+  font-size: 0.28rem;
+  /* border: 0.007rem solid #d30303; */
+  background: url('Group 1556235217.png') no-repeat top center;
+  background-size: 100% 100%;
+  padding: 0.2rem 0;
+}
+
+.LootEarning_Com .tab_menu span {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  /* background-color: #eaeaea; */
+  /* border-right: 0.007rem solid #d30303;
+  border-left: 0.007rem solid #d30303; */
+  cursor: pointer;
+  /* font-weight: 600; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.LootEarning_Com .tab_menu span img {
+  width: 0.3rem;
+}
+
+.LootEarning_Com .tab_menu span:last-child {
+  border-right: 0;
+}
+
+.LootEarning_Com .tab_menu span.current {
+  /* color: #412000;
+  background: url('/Z_img/Group 1556235218.png') no-repeat center;
+  background-size: 100% 100%;
+  padding: 0 0.3rem;
+  text-align: center;
+  /* font-weight: 600; */
+  opacity: 2.5;
+  -webkit-transform: scale(0.93); */
+}
+
+.LootEarning_Com ul li {
+  padding-left: 0.2rem;
+  padding-top: 0.17rem;
+  padding-bottom: 0.17rem;
+  /* border-bottom: 0.007rem solid #e3e3e3; */
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0.4rem 0;
+  align-items: center;
+}
+
+.LootEarning_Com ul li img {
+  display: block;
+  width: 1.18rem;
+  height: 1.18rem;
+  border-radius: 0.18rem;
+}
+
+.LootEarning_Com .allrummyapp_closed_stamp {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-image: url('https://indorummy.com/other-closed-rummy-application/image/closed-rummy-app-stamp.webp');
+  background-size: 100% 100%;
+  margin-left: 0.545rem;
+  opacity: 80%;
+}
+
+.LootEarning_Com ul li .info {
+  margin: 0 0.28rem 0 0.18rem;
+}
+
+.LootEarning_Com ul li .info p {
+  display: block;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.22rem;
+}
+
+.LootEarning_Com ul li .info .name {
+  font-size: 0.3rem;
+  color: #fff;
+  line-height: 0.48rem;
+  font-weight: 700;
+}
+
+.LootEarning_Com ul li .info .grade {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 0.32rem;
+}
+
+.LootEarning_Com ul li .info .grade span {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 700;
+}
+
+.LootEarning_Com ul li .info .grade em {
+  color: #ffd467;
+  font-size: 0.24rem;
+}
+
+.LootEarning_Com ul li .info .grade i {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.26rem;
+  background-position: -1.9rem -1.7rem;
+  position: relative;
+  top: 0.04rem;
+  margin-right: 0.04rem;
+}
+
+.LootEarning_Com ul li .info .txt {
+  color: #00bd2a;
+  line-height: 0.36rem;
+  font-weight: 700;
+  font-size: 0.2rem;
+}
+
+.LootEarning_Com ul li .num {
+  display: block;
+  width: 0.36rem;
+  height: 0.58rem;
+  font-weight: 700;
+  font-size: 0.32rem;
+  color: rgba(255, 255, 255, 0);
+  line-height: 0.45rem;
+  text-align: center;
+  position: relative;
+  top: 0.35rem;
+  left: 0;
+  /* margin-right: 0.2rem; */
+}
+
+.LootEarning_Com ul li .btn {
+  display: block;
+  line-height: 0.55rem;
+  margin: 0 Auto;
+  border-radius: 0.06rem;
+  color: #ffd467;
+  font-size: 0.24rem;
+  text-align: center;
+  width: 2.05rem;
+  height: 0.55rem;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0.1rem;
+}
+
+.All_Rummy_Sticky-Ads_App {
+  position: fixed;
+  bottom: 0;
+  width: 7.5rem;
+  background: rgb(0 0 0/55%);
+  z-index: 1;
+  display: flex;
+}
+
+.All_Rummy_Sticky-Ads_App-close {
+  width: 1.1rem;
+  height: 0.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: -0.338rem;
+  background-color: #ffffff;
+  border: 0.01rem solid black;
+}
+
+.All_Rummy_Sticky-Ads_App .All_Rummy_Sticky-Ads_App-close span {
+  width: 4rem;
+  font-size: 0.25rem;
+  color: #000000;
+  font-weight: bold;
+  margin-left: 0.05rem;
+  cursor: pointer;
+  line-height: 0.26rem;
+}
+
+.All_Rummy_Sticky-Ads_App .All_Rummy_Sticky-Ads_App-close i {
+  font-size: 0.25rem;
+  float: left;
+  color: #000000;
+  margin-top: 0.01rem;
+  margin-left: 0.08rem;
+  line-height: 0.26rem;
+}
+
+.All_Rummy_Sticky-Ads_App-content img {
+  width: 7.425rem;
+  background-color: #ffffff;
+  padding: 0.03rem 0.03rem;
+  border: 0.5px solid #000000;
+  border-radius: 0.05rem;
+}
+
+.AllRummyApps_WhatsApp_Follow a {
+  position: fixed;
+  cursor: pointer;
+  top: 3.2rem;
+  right: 0;
+  width: 1.8rem;
+  height: 1rem;
+  background-image: url('allrummyapps-whatsapp-follow.webp');
+  background-size: 100% 100%;
+  z-index: 999;
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+  color:rgba(255,255,255,.6);
+  background: #32065C;
+  border-collapse: collapse;
+  border: 2px solid #6313B6;
+}
+
+.table td{
+  border: 2px solid #6313B6;
+}
+
+
+
+.nav_left {
+  position: fixed;
+  right: 0;
+  width: 1rem;
+  text-align: center;
+  transition: all 0.3s;
+  bottom: 1.8rem;
+  z-index: 8;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.nav_left .li {
+  color: #fff;
+  padding: 0.2rem 0;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+}
+
+.nav_left .li:nth-child(1) {
+  border-radius: 12px 0 0 0;
+}
+.nav_left .li:nth-child(8) {
+  border-radius: 0 0 0 12px;
+}
+.nav_left li a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.nav_left img {
+  width: 70%;
+}
+.nav_left p {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.nav_showbtn {
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  bottom: 0;
+  right: 1.5rem;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 12px 0 0 12px;
+  display: none;
+}
