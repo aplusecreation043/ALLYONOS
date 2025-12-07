@@ -1,0 +1,148 @@
+.Dont_Copy_AllRummyApp_Com {
+  margin-left: 0.3rem;
+  border-radius: 0.2rem;
+  margin-right: 0.3rem;
+  background: linear-gradient(to top, #170034, #32065c);
+  border: 1px solid #000;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.Dont_Copy_AllRummyApp_Com img,
+img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  object-fit: fill;
+  margin-top: 0.3rem;
+}
+.Dont_Copy_AllRummyApp_Com p,
+.Dont_Copy_AllRummyApp_Com2 p {
+  margin: 0 0.3rem;
+}
+
+.Dont_Copy_AllRummyApp_Com h1,
+.Dont_Copy_AllRummyApp_Com2 h1 {
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #ffe7b3;
+  text-shadow: 0 1px #333333, 1px 0 #333333, -1px 0 #333333, 0 -1px #333333;
+  font-weight: 700;
+  background: url('../Z_img/Group 1556234996.png') no-repeat top center;
+  background-size: 100% 100%;
+}
+
+.Dont_Copy_AllRummyApp_Com h2,
+.Dont_Copy_AllRummyApp_Com2 h2 {
+  font-size: 0.4rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Dont_Copy_AllRummyApp_Com h3,
+.Dont_Copy_AllRummyApp_Com2 h3 {
+  font-size: 0.35rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Dont_Copy_AllRummyApp_Com p,
+.Dont_Copy_AllRummyApp_Com2 p {
+  padding-bottom: 0.5rem;
+  font-size: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  line-height: 0.48rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.dashed {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.Dont_Copy_AllRummyApp_Com ul,
+.Dont_Copy_AllRummyApp_Com2 ul {
+  padding-left: 0.4rem;
+}
+
+.Dont_Copy_AllRummyApp_Com li,
+.Dont_Copy_AllRummyApp_Com2 li {
+  font-size: 0.3rem;
+  list-style: decimal;
+  margin-top: 0.2rem;
+  margin-bottom: -0.2rem;
+  padding-left: 0.05rem;
+  padding-right: 0.3rem;
+}
+
+.Dont_Copy_AllRummyApp_Com .devider,
+.Dont_Copy_AllRummyApp_Com2 .devider {
+  width: 100%;
+  /* border-bottom: 1px solid #606280; */
+}
+
+.Dont_Copy_AllRummyApp_Com a,
+.Dont_Copy_AllRummyApp_Com2 a {
+  color: red;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 700;
+}
+
+.wrap .all-rummy-app-share-link {
+  text-align: center;
+  padding-top: 0.06rem;
+  padding-bottom: 0.9rem;
+  padding-left: 0.1rem;
+}
+
+.wrap .all-rummy-app-share-link span {
+  margin: 0.1rem;
+  font-size: 0.3rem;
+  width: 30%;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border: 1px dotted #ff2525;
+}
+
+.wrap .all-rummy-app-share-link span:hover {
+  color: #e9e9e9;
+}
+
+.all-rummy-app-share-link span:first-child {
+  float: left;
+  background-color: #08c;
+  border-radius: 0.1rem;
+}
+
+.all-rummy-app-share-link span:nth-child(2) {
+  float: left;
+  background-color: #25d366;
+  border-radius: 0.1rem;
+}
+
+.all-rummy-app-share-link span:nth-child(3) {
+  float: left;
+  background-color: #3b5998;
+  border-radius: 0.1rem;
+}
+
+.recomended h2 {
+  color: white;
+  background-color: #d10000;
+  font-size: 0.35rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.15rem;
+  margin: 0 0.05rem;
+  border-radius: 0.1rem;
+  border: 2px solid #000;
+}
